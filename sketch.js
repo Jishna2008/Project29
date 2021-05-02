@@ -67,15 +67,13 @@ function setup() {
 }
 function draw() {
   background(56,44,44); 
-
+    textSize(20);
     textFont("Times New Roman")
     strokeWeight(5)
     stroke("purple");
     fill("white")
     text("Drag the Hexagonal Stone and Release it, to launch it towards the blocks",50,50)
 
-  textSize(20);
- text("Drag the Hexagonal Stone and Release it, to launch it towards the blocks",50,50)
   fill("lightyellow");
   imageMode(CENTER);
   image(poly_img,polygon.position.x,polygon.position.y,20,20)
