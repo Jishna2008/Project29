@@ -67,12 +67,7 @@ function setup() {
 }
 function draw() {
   background(56,44,44); 
-    textSize(20);
-    textFont("Times New Roman")
-    strokeWeight(5)
-    stroke("purple");
-    fill("white")
-    text("Drag the Hexagonal Stone and Release it, to launch it towards the blocks",50,50)
+ 
 
   fill("lightyellow");
   imageMode(CENTER);
@@ -84,7 +79,7 @@ function draw() {
 
   strokeWeight(2);
   stroke(15);
-  text(mouseX+","+mouseY,mouseX,mouseY)
+//   text(mouseX+","+mouseY,mouseX,mouseY)
   fill("skyblue");
   block1.display();
   block2.display();
